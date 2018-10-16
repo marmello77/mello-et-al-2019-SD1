@@ -3,8 +3,7 @@
 Supplementary data 1 from the paper Mello et al. 2018
 
 
-Ecological Synthesis Lab (SintECO)
-https://marcomellolab.wordpress.com
+Ecological Synthesis Lab (SintECO: https://marcomellolab.wordpress.com
 
 Authors: Marco A. R. Mello, Gabriel M. Felix, Rafael B. P. Pinheiro, Renata L. Muylaert, Cullen Geiselman, Sharlene E. Santana, Marco Tschapka, Nastaran Lotfi, Francisco A. Rodrigues & Richard D. Stevens.
 
