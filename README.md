@@ -9,7 +9,7 @@ Authors: Marco A. R. Mello, Gabriel M. Felix, Rafael B. P. Pinheiro, Renata L. M
 
 E-mail: marmello@gmail.com. 
 
-How to cite: Mello et al. 2018. Insights on the assembly rules of a continent-wide multilayer network. Supplementary Data 1. Available at www.marcomello.org.
+How to cite: Mello et al. 2018. Insights on the assembly rules of a continent-wide multilayer network. Supplementary Data 1.
 
 Updated on October 16th, 2018 (English version).
 Run in R version 3.4.3 (2017-11-30) -- "Kite-Eating Tree"
