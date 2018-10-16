@@ -12,7 +12,7 @@ E-mail: marmello@gmail.com.
 
 How to cite: Mello et al. 2018. Insights on the assembly rules of a continent-wide multilayer network. Supplementary Data 1. Available at www.marcomello.org.
 
-Updated on April 10th, 2018 (English version).
+Updated on October 16th, 2018 (English version).
 Run in R version 3.4.3 (2017-11-30) -- "Kite-Eating Tree"
 
 Disclaimer: You may use this script freely for non-comercial purposes at your own risk. We assume no responsibility or
