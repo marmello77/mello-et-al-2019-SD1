@@ -1,4 +1,4 @@
-# Supplementary data 1 from the preprint Mello et al. 2018 (bioRxiv)
+# Supplementary data 1 from the preprint Mello et al. 2018, bioRxiv: https://doi.org/10.1101/452565
 
 
 Ecological Synthesis Lab (SintECO): https://marcomellolab.wordpress.com
@@ -8,8 +8,6 @@ Authors: Marco A. R. Mello, Gabriel M. Felix, Rafael B. P. Pinheiro, Renata L. M
 E-mail: marmello@gmail.com.
 
 How to cite: Mello et al. 2018. Insights on the assembly rules of a continent-wide multilayer network. bioRxiv, DOI: https://doi.org/10.1101/452565. Supplementary Data 1. 
-
-Available at https://doi.org/10.1101/452565.
 
 Published on October 24th, 2018 (English version).
 
