@@ -1,4 +1,4 @@
-# Supplementary data 1 from the preprint Mello et al. 2018, bioRxiv: https://doi.org/10.1101/452565
+# Supplementary data 1 from the preprint Mello et al. 2018, bioRxiv
 
 
 Ecological Synthesis Lab (SintECO): https://marcomellolab.wordpress.com
