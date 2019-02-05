@@ -11,8 +11,7 @@ How to cite: Mello et al. 2018. Insights on the assembly rules of a continent-wi
 
 Published on October 24th, 2018 (English version).
 
-<a href="https://doi.org/10.5281/zenodo.1487573"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.1487573.svg" alt="DOI"></a>
-
+<a href="https://doi.org/10.5281/zenodo.2557536"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.2557536.svg" alt="DOI"></a>
 
 Run in R version 3.5.1 (2018-07-02) -- "Feather Spray"
 
