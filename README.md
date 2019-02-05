@@ -10,6 +10,7 @@ E-mail: marmello@gmail.com.
 How to cite: Mello et al. 2018. Insights on the assembly rules of a continent-wide multilayer network. bioRxiv, DOI: https://doi.org/10.1101/452565. Supplementary Data 1. 
 
 Published on October 24th, 2018 (English version).
+Updated on February 5th, 2019. (second realease)
 
 <a href="https://doi.org/10.5281/zenodo.2557536"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.2557536.svg" alt="DOI"></a>
 
