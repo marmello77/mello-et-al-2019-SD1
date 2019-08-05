@@ -1,22 +1,16 @@
 #################################################
-##### SUPPLEMENTARY DATA 1 FROM MELLO ET AL. 2018
+##### SUPPLEMENTARY DATA 1 FROM MELLO ET AL. 2019
 #################################################
 
 
 ##### Ecological Synthesis Lab (SintECO): https://marcomellolab.wordpress.com
-
 ##### Authors: Marco A. R. Mello, Gabriel M. Felix, Rafael B. P. Pinheiro, Renata L. Muylaert, Cullen Geiselman, Sharlene E. Santana, Marco Tschapka, Nastaran Lotfi, Francisco A. Rodrigues & Richard D. Stevens
-
 ##### E-mail: marmello@gmail.com 
-
-##### How to cite: Mello et al. 2018. Insights on the assembly rules of a continent-wide multilayer network. bioRxiv, DOI: https://doi.org/10.1101/452565. Supplementary Data 1. Available at https://marcomellolab.wordpress.com.
-
-##### Updated on October 25th, 2018 (English version).
-
-##### Run R version 3.5.1 (2018-07-02) -- "Feather Spray"
+##### How to cite: Mello et al. 2019. Assembly rules of a continent-wide multilayer network. Published as a preprint in bioRxiv in 2018, accepted by Nature Ecology and Evolution in 2019. Supplementary Data 1. 
+##### Updated on August 5th, 2019 (English version).
+##### Run in R version 3.6.0 (2019-04-26) -- "Planting of a Tree"
 
 ##### Disclaimer: You may use this script freely for non-comercial purposes at your own risk. We assume no responsibility or liability for the use of this software, convey no license or title under any patent, copyright, or mask work right to the product. We reserve the right to make changes in the software without notification. We also make no representation or warranty that such application will be suitable for the specified use without further testing or modification. If this script helps you produce any academic work (paper, book, chapter, dissertation etc.), please acknowledge the authors and cite the source.
-
 
 
 ##############################################
@@ -24,17 +18,12 @@
 ##############################################
 
 
-
-current_path <- getActiveDocumentContext()$path 
-setwd(dirname(current_path ))
-print( getwd() )
-
+setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
 
 
 ##############################################
 ##### Load the packages 
 ##############################################
-
 
 
 library("igraph")
@@ -52,16 +41,14 @@ library("gridExtra")
 library("dplyr")
 
 
-
 ##############################################
 ##### Create multilayer network for igraph 
 ##############################################
 
 
-
 #Create nodes and edges
-nodes <- read.csv("nodes.csv", header=T, as.is=T)
-links <- read.csv("links.csv", header=T, as.is=T)
+nodes <- read.csv("nodesc1.csv", header=T, as.is=T)
+links <- read.csv("linksc1.csv", header=T, as.is=T)
 
 
 #Inspect objects
@@ -107,12 +94,12 @@ V(multilayer)$taxon
 modules=read.table("partitions.txt", h=T)
 head(modules)
 
-
+length(modules$nodes)
+length(V(multilayer)$name)
 
 #######################################################################################
 ###### Draw the graphs
 #######################################################################################
-
 
 
 #Set the same layout for all graphs
@@ -125,13 +112,13 @@ V(multilayer)$shape = gsub("Bats","square",V(multilayer)$shape)
 V(multilayer)$shape = gsub("Plants","circle",V(multilayer)$shape)
 
 
-
 #######################################################################################
-###### Draw single-panel graphs
+###### Draw the graphs
 #######################################################################################
 
 
-#Draw the graph with node colors by taxon
+##### Draw the graph with node colors by taxon #####
+
 V(multilayer)$color = V(multilayer)$taxon
 V(multilayer)$color = gsub("Bats","#D3802B",V(multilayer)$color)
 V(multilayer)$color = gsub("Plants","#2C8437",V(multilayer)$color)
@@ -179,13 +166,13 @@ par(mfrow=c(1,1))
 dev.off()
 
 
-#Draw the graph with node colors by module
-#First, you need to analyze the modularity of the network using the package bipartite, and then
-#extract infromation on module membership, and then saving the membership list as a
-#tab-delimited TXT file, whcih should be imported before as the object "modules".
+#####  Draw the graph with node colors by module #####
+
+#First, you need to analyze the modularity of the network using the package bipartite, and then extract infromation on module membership, and then saving the membership list as a tab-delimited TXT file, whcih should be imported before as the object "modules".
 vertex_name_order = data.frame(nodes=V(multilayer)$name)
 modules_order = merge(vertex_name_order, modules, by="nodes", sort = F)
-colrs = rainbow(12, alpha=1)
+#colrs = rainbow(12, alpha=1) #rainbow palette with 12 colors
+colrs = c("#A6CEE3", "#1F78B4", "#B2DF8A", "#33A02C", "#FB9A99", "#B41572", "#FDBF6F", "#FF7F00", "#CAB2D6", "#6A3D9A", "#FFFF99", "#B15928") #colorblind-friendly palette with 12 colors.
 V(multilayer)$color <- colrs[modules_order$modules]
 
 E(multilayer)$color = E(multilayer)$type
