@@ -6,7 +6,7 @@ Authors: Marco A. R. Mello, Gabriel M. Felix, Rafael B. P. Pinheiro, Renata L. M
 
 E-mail: marmello@gmail.com 
 
-How to cite: Mello et al. 2019. Assembly rules of a continent-wide multilayer network. Published as a preprint in bioRxiv in 2018, accepted by Nature Ecology and Evolution in 2019. Supplementary Data 1. 
+How to cite: Mello et al. 2019. Assembly rules of a continent-wide multilayer network. Published as a preprint in bioRxiv in 2018, accepted by Nature Ecology and Evolution in 2019. Supplementary Data 1. DOI: https://doi.org/10.5281/zenodo.1487572.
 
 Updated on August 5th, 2019 (English version).
 
