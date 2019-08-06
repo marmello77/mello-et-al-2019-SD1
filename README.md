@@ -11,7 +11,7 @@ How to cite: Mello et al. 2019. Assembly rules of a continent-wide multilayer ne
 Updated on August 5th, 2019 (English version).
 
 
-<a href="https://doi.org/10.5281/zenodo.2557536"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.2557536.svg" alt="DOI"></a>
+<a href="https://doi.org/10.5281/zenodo.3360862"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.3360862.svg" alt="DOI"></a>
 
 
 Run in R version 3.6.0 (2019-04-26) -- "Planting of a Tree"
