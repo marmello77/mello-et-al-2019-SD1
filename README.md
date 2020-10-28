@@ -17,9 +17,9 @@ Run in R version 3.6.0 (2019-04-26) -- "Planting of a Tree"
 Disclaimer: You may use this software freely for any purposes at your own risk. We assume no responsibility or liability for the use of this software, convey no license or title under any patent, copyright, or mask work right to the product. We reserve the right to make changes in the software without notification. We also make no representation or warranty that such application will be suitable for the specified use without further testing or modification. If this software helps you produce any academic work (paper, book, chapter, dissertation, report, etc.), please acknowledge the authors and cite the source.
 
 
-## Original sources
+## Specialized codes
 
-The main codes used in this paper have been further developed since its publication. Now their stand-alone versions are available in other repos of our lab:
+In this paper we used a combination of codes produced in our lab to run different kinds of numerical and graphical analysis. These codes have been further developed since the paper was published. Now their stand-alone versions are available in other repos:
 
 1. [multilayer-networks](https://github.com/marmello77/multilayer-networks)
 
