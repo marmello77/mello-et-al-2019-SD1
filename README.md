@@ -17,6 +17,17 @@ Run in R version 3.6.0 (2019-04-26) -- "Planting of a Tree"
 Disclaimer: You may use this software freely for any purposes at your own risk. We assume no responsibility or liability for the use of this software, convey no license or title under any patent, copyright, or mask work right to the product. We reserve the right to make changes in the software without notification. We also make no representation or warranty that such application will be suitable for the specified use without further testing or modification. If this software helps you produce any academic work (paper, book, chapter, dissertation, report, etc.), please acknowledge the authors and cite the source.
 
 
+## Original sources
+
+The main codes used in this paper have been further developed since its publication. Now they are available in other repos of our lab:
+
+1. [network-significance](https://github.com/marmello77/network-significance)
+
+2. [Restricted-Null-Model](https://github.com/gabrielmfelix/Restricted-Null-Model)
+
+3. [ihsmodel](https://github.com/pinheirorbp/ihsmodel)
+
+
 ## Feedback
 
 If you have any questions, suggestions, or corrections, please feel free to open an [issue](https://github.com/marmello77/mello-et-al-2018-SD1/issues) or send a [pull request](https://github.com/marmello77/mello-et-al-2018-SD1/pulls).
