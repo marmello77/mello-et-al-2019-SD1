@@ -19,13 +19,17 @@ Disclaimer: You may use this software freely for any purposes at your own risk. 
 
 ## Original sources
 
-The main codes used in this paper have been further developed since its publication. Now they are available in other repos of our lab:
+The main codes used in this paper have been further developed since its publication. Now their stand-alone versions are available in other repos of our lab:
 
-1. [network-significance](https://github.com/marmello77/network-significance)
+1. [multilayer-networks](https://github.com/marmello77/multilayer-networks)
 
-2. [Restricted-Null-Model](https://github.com/gabrielmfelix/Restricted-Null-Model)
+2. [network-drawing](https://github.com/marmello77/network-drawing)
 
-3. [ihsmodel](https://github.com/pinheirorbp/ihsmodel)
+3. [network-significance](https://github.com/marmello77/network-significance)
+
+4. [Restricted-Null-Model](https://github.com/gabrielmfelix/Restricted-Null-Model)
+
+5. [ihsmodel](https://github.com/pinheirorbp/ihsmodel)
 
 
 ## Feedback
