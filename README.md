@@ -1,6 +1,6 @@
 # mello-et-al-2019-SD1
 
-Supplementary data 1 of the preprint [Mello et al. (2018, bioRxiv)](https://doi.org/10.1101/452565), later formally published as [Mello et al. (2019, Nature Ecology and Evolution)](https://doi.org/10.1038/s41559-019-1002-3).
+Supplementary data 1 of the preprint [Mello et al. (2018, bioRxiv)](https://doi.org/10.1101/452565), later published as [Mello et al. (2019, Nature Ecology and Evolution)](https://doi.org/10.1038/s41559-019-1002-3).
 
 [Ecological Synthesis Lab](https://marcomellolab.wordpress.com) (SintECO).
 
@@ -16,6 +16,11 @@ Run in R version 3.6.0 (2019-04-26) -- "Planting of a Tree"
 
 Disclaimer: You may use this software freely for any purposes at your own risk. We assume no responsibility or liability for the use of this software, convey no license or title under any patent, copyright, or mask work right to the product. We reserve the right to make changes in the software without notification. We also make no representation or warranty that such application will be suitable for the specified use without further testing or modification. If this software helps you produce any academic work (paper, book, chapter, dissertation, report, etc.), please acknowledge the authors and cite the source.
 
+## Content
+
+This repo contains all supplementary material from our paper, including processed data and code.
+
+Recently, we've updated and improved the database used in our analysis, and published it as a new data paper. Check out its [new repo](https://github.com/gflorezm/NeoBat_Interactions).
 
 ## Specialized codes
 
